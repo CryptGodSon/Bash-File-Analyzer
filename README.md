@@ -20,6 +20,33 @@ This Bash script is designed for analyzing files within a specified directory. T
    ./analyze_files.sh /path/to/directory
    ```
 
+## Examples
+```lua
+/example_directory
+|-- file1.txt
+|-- file2.txt
+|-- document.doc
+|-- image.jpg
+|-- script.sh
+|-- subdirectory
+    |-- data.csv
+    |-- config.yml
+```
+```yaml
+Free disk space: 10G
+Occupied space by all files: 128K
+
+Percentage distribution of file extensions:
+txt: 40.00%
+doc: 20.00%
+jpg: 20.00%
+sh: 10.00%
+csv: 5.00%
+yml: 5.00%
+
+```
+
+
 ## Requirements
 
 - Bash (tested on version 4.4.20)
