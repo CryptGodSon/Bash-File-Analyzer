@@ -6,7 +6,7 @@ This Bash script is designed for analyzing files within a specified directory. T
 
 ## How to Use
 
-1. Copy the script to a file with the .sh extension, e.g., `analyze_files.sh`.
+1. Copy `script.bash` to a file with the .sh extension, e.g., `analyze_files.sh`.
 
 2. Grant execution permissions to the script:
 
